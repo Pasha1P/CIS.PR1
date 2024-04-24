@@ -50,8 +50,7 @@ namespace ПР1
                 if (ok)
                 {
                     Form1.Arrays(sum, hobby_name, description);
-                    // Close();
-                    MessageBox.Show("OK!");
+                    Close();
                 }
             }
             catch(Exception ee)
